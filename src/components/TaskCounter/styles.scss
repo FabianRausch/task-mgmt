@@ -1,0 +1,21 @@
+.task-counter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    p {
+        margin: 0;
+    }
+
+    &__total {
+        color: #262626;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    &__completed {
+        color: #22c55e;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
